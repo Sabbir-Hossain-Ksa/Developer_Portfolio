@@ -199,13 +199,12 @@ main {
   box-shadow: 0 15px 70px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
 }
-.text-bold-2{
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 27px;
-color: #181818;
-
+.text-bold-2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #181818;
 }
 .skill-item img {
   margin-bottom: 15px;
@@ -213,4 +212,63 @@ color: #181818;
 .skill-item p {
   margin-bottom: 15px;
 }
-/* SkillSection Style End */
+/* Sill Section Style End */
+/* Resume Section Style Start */
+.resume {
+  width: 1140px;
+  height: 550px;
+  margin: 80px auto;
+  padding: 131px 156px;
+}
+.resume h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #181818;
+}
+.resume .edu-ex {
+  display: flex;
+  gap: 8px;
+}
+.title {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+}
+.edu-info .sub-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+}
+
+.edu-ex .university {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.edu-ex .versity-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+hr {
+  margin: 20px 0;
+}
+.cv-2 {
+  text-align: center;
+  margin-top: 425px;
+}
+/* Rusume Section Style End */
