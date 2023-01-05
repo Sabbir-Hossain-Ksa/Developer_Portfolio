@@ -33,12 +33,23 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  color: #FD6E0A;
-  border: 2px solid #FD6E0A;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
   padding: 10px 30px;
 }
 
 /* Header and Navication Bar Style Start */
+header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, left center;
+}
+header .img {
+  height: 676px;
+  width: 584px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -99,10 +110,58 @@ nav ul li:nth-child(2) {
   color: #757575;
   margin-bottom: 25px;
 }
-.banner button{
-   line-height: 32px;
+.banner button {
+  line-height: 32px;
 }
-.banner button span{
-    letter-spacing: 10px;
-    font-size: 16px;
+.banner button span {
+  letter-spacing: 10px;
+  font-size: 16px;
+}
 /* Banner Section Style End */
+/* ABOUT Section Style Start */
+
+main {
+  margin-top: 100px;
+}
+.about {
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 156px;
+}
+.about h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+  margin-bottom: 30px;
+ 
+}
+.about .para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.about .about-address {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.about .div-item {
+  margin: 20px;
+}
+.text-bold{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+/* ABOUT Section Style End */
