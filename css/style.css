@@ -219,6 +219,7 @@ main {
   height: 550px;
   margin: 80px auto;
   padding: 131px 156px;
+  margin-bottom: 80px;
 }
 .resume h1 {
   font-style: normal;
@@ -270,5 +271,57 @@ hr {
 .cv-2 {
   text-align: center;
   margin-top: 425px;
+  margin-bottom: 100px;
 }
 /* Rusume Section Style End */
+/* Contact Section Style Start */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 1140px;
+  height: 700px;
+  margin: 0px auto;
+  padding: 122px 138px;
+  gap: 60px;
+  background-color: #fff8f3;
+}
+.contact-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.social-sub-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+form input[type="text"],
+input[type="email"] {
+  width: 440px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+}
+textarea {
+  width: 440px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+}
+/* Contact Section Style End*/
